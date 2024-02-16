@@ -20,9 +20,72 @@ header {
 header h1 {
     margin: 0;
     font-weight: normal;
+    font-size: 1.5em;
 }
 
 main {
+    background: url("polaroid.png") no-repeat center 100px;
     margin: 0 auto;
     width: 1000px;
 }
+
+.hero {
+    text-align: center;
+    min-height: 800px;
+}
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.details {
+    line-height: 1.5em;
+}
+
+.details h3 {
+    font-size: 2.5em;
+    line-height: 2em;
+    text-align: center;
+    margin: 0;
+}
+
+.details ul li {
+    list-style-type: none;
+    line-height: 2em;
+    margin: 10px 0;
+    padding: 0 0 0 40px;
+}
+
+.details ul li.wifi {
+    background: url("wifi-solid 1.svg") no-repeat center left;
+    background-size: 20px;
+}
+
+.details ul li.cloud {
+    background: url("cloud-arrow-up-solid 1.svg") no-repeat center left;
+    background-size: 20px;
+}
+
+.details ul li.qr {
+    background: url("qrcode-solid 1.svg") no-repeat center left;
+    background-size: 20px;
+}
+
+.details ul li.photo {
+    background: url("photo-film-solid 1.svg") no-repeat center left;
+    background-size: 20px;
+}
+
+.cta {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.cta h3 {
+    font-size: 2.5em;
+}
+
+
