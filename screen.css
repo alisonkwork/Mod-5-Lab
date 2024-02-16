@@ -1,1 +1,28 @@
-/* Add screen styles below */
+:root {
+    --main-bg-color: #f9f9f9;
+    --primary-text-color: #424242;
+    --accent-color: #ff3f3c; 
+}
+
+body {
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    margin: 0 auto;
+    width: 1000px;
+}
