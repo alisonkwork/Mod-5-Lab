@@ -12,7 +12,7 @@ body {
     color: var(--primary-text-color);
     font-family: "Inter", sans-serif;
     margin: 0;
-    padding: 0;
+    padding-bottom: 50px;
 }
 
 header {
@@ -46,18 +46,20 @@ main {
 
 .details {
     line-height: 1.5em;
+    width: 800px;
+    margin: 0 auto;
 }
 
 .details h3 {
     font-size: 2.5em;
     text-align: center;
-    margin: 45px;
+    margin-top: 50px;
 }
 
 .details ul li {
     list-style-type: none;
-    margin: 10px 0;
-    padding: 0 0 10px 40px;
+    margin: 20px 0;
+    padding: 0 0 0 40px;
 }
 
 .details ul li.wifi {
@@ -82,17 +84,17 @@ main {
 
 .cta {
     text-align: center;
-    margin-bottom: 100px;
 }
 
 .cta h3 {
     font-size: 2.5em;
+    margin-top: 50px;
 }
 
 form {
     margin: 0 auto;
+    width: 800px;
     border-radius: 25px;
-    width: 700px;
     padding: 30px 0;
     background-image: linear-gradient(#f2f2f2, #e6e7e6);
 }
@@ -103,7 +105,7 @@ input {
 }
 
 input[type=text] {
-    width: 400px;
+    width: 500px;
     margin-right: 10px;
     background-color: #fcfcfc;
 }
