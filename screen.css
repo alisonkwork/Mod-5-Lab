@@ -5,6 +5,7 @@
     --main-bg-color: #f9f9f9;
     --primary-text-color: #424242;
     --accent-color: #ff3f3c; 
+    --icon-size:25px;
 }
 
 body {
@@ -46,8 +47,8 @@ main {
 
 .details {
     line-height: 1.5em;
-    padding: 0 100px;
     margin: 0 auto;
+    padding: 0 100px;
 }
 
 .details h3 {
@@ -64,22 +65,22 @@ main {
 
 .details ul li.wifi {
     background: url("wifi-solid 1.svg") no-repeat center left;
-    background-size: 25px;
+    background-size: var(--icon-size);
 }
 
 .details ul li.cloud {
     background: url("cloud-arrow-up-solid 1.svg") no-repeat center left;
-    background-size: 25px;
+    background-size: var(--icon-size);
 }
 
 .details ul li.qr {
     background: url("qrcode-solid 1.svg") no-repeat center left;
-    background-size: 25px;
+    background-size: var(--icon-size);
 }
 
 .details ul li.photo {
     background: url("photo-film-solid 1.svg") no-repeat center left;
-    background-size: 25px;
+    background-size: var(--icon-size);
 }
 
 .cta {
