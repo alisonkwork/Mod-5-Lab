@@ -46,7 +46,7 @@ main {
 
 .details {
     line-height: 1.5em;
-    width: 800px;
+    padding: 0 100px;
     margin: 0 auto;
 }
 
@@ -84,6 +84,7 @@ main {
 
 .cta {
     text-align: center;
+    padding: 0 100px;
 }
 
 .cta h3 {
@@ -93,7 +94,6 @@ main {
 
 form {
     margin: 0 auto;
-    width: 800px;
     border-radius: 25px;
     padding: 30px 0;
     background-image: linear-gradient(#f2f2f2, #e6e7e6);
@@ -105,7 +105,7 @@ input {
 }
 
 input[type=text] {
-    width: 500px;
+    width: 550px;
     margin-right: 10px;
     background-color: #fcfcfc;
 }
