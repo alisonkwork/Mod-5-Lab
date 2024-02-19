@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+
 :root {
     --main-bg-color: #f9f9f9;
     --primary-text-color: #424242;
@@ -19,7 +22,7 @@ header {
 
 header h1 {
     margin: 0;
-    font-weight: normal;
+    font-weight: 600;
     font-size: 1.5em;
 }
 
@@ -86,6 +89,33 @@ main {
 
 .cta h3 {
     font-size: 2.5em;
+}
+
+form {
+    margin: 0 auto;
+    border-radius: 25px;
+    width: 700px;
+    padding: 30px 0px;
+    background-image: linear-gradient(#f2f2f2, #e6e7e6);
+}
+
+input {
+    padding: 15px;
+    border: none;
+}
+
+input[type=text] {
+    width: 400px;
+    margin-right: 10px;
+    background-color: #fcfcfc;
+}
+
+input[type=button] {
+    width: 200px;
+    background-color: var(--accent-color);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 
